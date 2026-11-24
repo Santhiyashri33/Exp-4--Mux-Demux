@@ -123,8 +123,8 @@ dve -full64 &
 A DVE environment will open.
 # OUTPUT
 # DVE Waveform Verification
-<img width="1920" height="1080" alt="Screenshot (102)" src="https://github.com/user-attachments/assets/4cf0306d-6ce7-4e29-bed4-53552e0e19a4" />
 <img width="1920" height="1080" alt="Screenshot (103)" src="https://github.com/user-attachments/assets/93f55749-1a22-43b4-8658-c73921c16c18" />
+<img width="1920" height="1080" alt="Screenshot (104)" src="https://github.com/user-attachments/assets/1fb2c0d3-e04b-4490-a158-9f03d47f075b" />
 
 
 ## Expected Result
