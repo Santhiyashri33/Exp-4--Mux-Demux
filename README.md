@@ -57,54 +57,14 @@ Other option
 dve -full64 &
 A DVE environment will open.
 DVE Waveform Verification
-In DVE:
-•	Open the testbench hierarchy.
-•	Locate the signals:
-o	A
-o	B
-o	S
-o	Y
-o	D
-o	Y0
-o	Y1
-•	Add the signals to the waveform window.
-•	Run/inspect the waveform.
-•	Verify that Y = A whenever S = 0, and Y = B whenever S = 1.
-•	Verify that Y0 = D and Y1 = 0 whenever S = 0, and Y1 = D and Y0 = 0 whenever S = 1.
-•	Confirm that Y0 and Y1 are never both high at the same time, since only one output is active per select value.
-The waveform should agree with the truth table.
+<img width="1920" height="1080" alt="Screenshot (102)" src="https://github.com/user-attachments/assets/4cf0306d-6ce7-4e29-bed4-53552e0e19a4" />
+<img width="1920" height="1080" alt="Screenshot (103)" src="https://github.com/user-attachments/assets/93f55749-1a22-43b4-8658-c73921c16c18" />
+
 
 ## Expected Result
-
-The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
-
-•	Y = S'.A + S.B
-•	Y0 = S'.D, Y1 = S.D
-
-The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
-
-## Output
+<img width="909" height="378" alt="Screenshot (101)" src="https://github.com/user-attachments/assets/edfbd063-e585-4e13-bef5-38f5a75b8c95" />
 
 
-## Viva-Voce Questions
-
-•	What is a Multiplexer, and why is it called a 'data selector'?
-
-•	What is a Demultiplexer, and how does it differ functionally from a Multiplexer?
-
-•	How many select lines are required for an 8:1 MUX and a 1:8 DEMUX?
-
-•	Write the Boolean expression for a 4:1 Multiplexer.
-
-•	What is the purpose of a Verilog testbench?
-
-•	Why is a VCD file generated, and what does $dumpvars(0, tb) do?
-
-•	What is the purpose of ./simv?
-
-•	What is the difference between simulation and synthesis?
-
-•	How would you extend the 2:1 MUX design to a 4:1 MUX using two 2:1 MUXes?
 
 ## Result
 
